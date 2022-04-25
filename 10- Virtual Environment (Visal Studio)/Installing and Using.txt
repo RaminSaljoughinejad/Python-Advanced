@@ -1,0 +1,104 @@
+Installation:
+
+Windows:
+
+python -m pip install --upgrade --user virtualenv
+
+
+
+Mac:
+
+python3 -m pip install --upgrade --user virtualenv
+
+
+################################################################
+
+1- Creating a Virtual Env.
+You can easily use one of the following methods! and replace [project_name_env] with your own project name.
+
+Method 1:
+virtualenv [project_name_env]
+
+
+Method 2:
+python venv [project_name_env]
+
+
+Method 3: (Specific python version)
+python -p [Python Path][project_name_env]
+
+************
+************
+
+2- Activating Virtual Env.
+
+Source [project_name_env]/bin/activate
+
+
+************
+************
+
+3- Installing madules.
+
+Method 1:
+pip install [madule_name]
+
+
+Method 2:
+python -m pip install [madule_name]
+
+@@ Please Note that you can use nay optional arguments while using pip in a virtual environment.
+
+
+************
+Getting out of an active virtual environment ( deactivating it )
+
+deactivate
+
+################################################################
+
+Saving all the current Package/Madule names into a file! (could be used later to install env packages on another system)
+
+pip freeze --local > requirements.txt
+
+################################################################
+
+Checking which Python you are currently using.
+
+which python
+
+################################################################
+
+Checking which pip you are currently using.
+
+which pip
+
+################################################################
+
+Installing python packages from a file (as requirements).
+
+Method 1:
+pip install -r [file_name.txt]
+
+
+Method 2:
+python -m pip install -r [file_name.txt]
+
+
+################################################################
+
+Getting a list of all avalible versions of a specific version.
+
+pip index versions [madule_name]
+
+################################################################
+
+Installing a specific version of a madule using pip.
+
+Method 1:
+pip install [madule_name]==[version]
+
+exp:
+pip install numpy==1.21.6
+
+################################################################

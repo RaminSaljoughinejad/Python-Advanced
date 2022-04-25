@@ -1,0 +1,8 @@
+Asus, 12
+Samsung, 18
+Dell, 5
+Lenovo, 25
+Apple, 2
+HP, 14
+Acer, 3
+Sony, 6
