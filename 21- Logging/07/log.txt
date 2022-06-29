@@ -1,0 +1,5 @@
+2022-05-28 11:21:34,638 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "c:\Users\Home\Desktop\Python Advanced\logging\07\main.py", line 18, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero

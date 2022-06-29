@@ -1,0 +1,19 @@
+import logging
+
+
+logging.basicConfig(level=logging.INFO,
+                    format=' %(asctime)s - %(levelname)s - %(message)s',
+                    filename="05\mat.txt")
+
+def cube(x):
+    return x**3
+
+def square(x):
+    return x**2
+
+
+x = 2
+res1 = cube(x)
+res2 = square(x)
+
+logging.info('x = %s, res1 = %s, res2 = %s', x, res1, res2)
